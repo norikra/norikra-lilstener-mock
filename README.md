@@ -23,7 +23,7 @@ rbenv local jruby-1.7.18
 3. Edit gemspec
   * Add `spec.platform = "java"`
   * Add `norikra` to `spec.add_runtime_dependency`
-  * Add `bundler`, `rake` and `rspec` to `spec.add_runtime_dependency`
+  * Add `bundler`, `rake` and `rspec` to `spec.add_development_dependency`
   * Edit other fields
 4. Write Listeners
   * see `Writing Listeners and tests`
